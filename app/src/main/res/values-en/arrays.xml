@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="algorithm_categories">
+        <item>All</item>
+        <item>Sorting</item>
+        <item>Search</item>
+        <item>Graph</item>
+        <item>Traversal</item>
+    </string-array>
+</resources>

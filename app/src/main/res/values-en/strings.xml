@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlgoViz</string>
+
+    <!-- Header -->
+    <string name="greeting_user">Hello, %1$s</string>
+
+    <!-- Account popup menu -->
+    <string name="menu_history">Learning History</string>
+    <string name="menu_bookmark">Bookmarks</string>
+    <string name="menu_account_info">Account Info</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_login">Log In</string>
+
+    <!-- Common buttons -->
+    <string name="btn_confirm">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="btn_generate">Generate</string>
+
+    <!-- Common messages -->
+    <string name="msg_login_required">Login required.</string>
+
+    <!-- Account dialog -->
+    <string name="title_account">Account</string>
+    <string name="msg_go_to_login">Login is required.\nGo to the login screen?</string>
+    <string name="title_account_info">Account Info</string>
+    <string name="account_info_format">Name: %1$s\nID: %2$s</string>
+
+    <!-- Bookmarks -->
+    <string name="msg_no_bookmarks">No bookmarked algorithms.</string>
+    <string name="msg_bookmark_count">%1$d bookmarks</string>
+
+    <!-- Login screen -->
+    <string name="label_app_subtitle">Algorithm Visualization Learning</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_password">Password</string>
+    <string name="label_or">or</string>
+    <string name="btn_google_login">Sign in with Google</string>
+    <string name="btn_browse_guest">Browse without signing in</string>
+
+    <!-- Register screen -->
+    <string name="title_create_account">Create Account</string>
+    <string name="label_welcome_to_algoviz">Welcome to AlgoViz</string>
+    <string name="hint_id_with_min">ID (4+ characters)</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_password_with_min">Password (6+ characters)</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+
+    <!-- Visualization -->
+    <string name="label_visited">Visited</string>
+
+    <!-- Login messages -->
+    <string name="msg_id_password_required">Please enter your ID and password.</string>
+    <string name="msg_login_failed">Login failed: Please check your ID or password.</string>
+    <string name="msg_google_login_failed">Google login failed: %1$s</string>
+    <string name="msg_google_auth_failed">Google authentication failed: %1$s</string>
+
+    <!-- Register -->
+    <string name="title_register">Register</string>
+    <string name="msg_id_required">Please enter an ID.</string>
+    <string name="msg_id_too_short">ID must be at least %1$d characters.</string>
+    <string name="msg_name_required">Please enter your name.</string>
+    <string name="msg_password_required">Please enter a password.</string>
+    <string name="msg_password_too_short">Password must be at least %1$d characters.</string>
+    <string name="msg_password_mismatch">Passwords do not match.</string>
+    <string name="msg_id_already_used">This ID is already in use.</string>
+    <string name="msg_register_failed">Registration failed: %1$s</string>
+    <string name="msg_welcome_user">Welcome, %1$s!</string>
+
+    <!-- Visualization -->
+    <string name="msg_no_input">No input provided.</string>
+    <string name="msg_input_error">Input error: %1$s</string>
+    <string name="msg_empty_numbers">Number list is empty.</string>
+    <string name="msg_too_many_numbers">Maximum %1$d numbers allowed.</string>
+    <string name="msg_search_format">Enter in format: list | target value</string>
+    <string name="msg_graph_format">Enter in format: A-B, A-C | A</string>
+    <string name="msg_empty_edges">Edge list is empty.</string>
+    <string name="label_code_view">View Code ›</string>
+    <string name="label_fast">Fast</string>
+    <string name="label_slow">Slow</string>
+
+    <!-- Input screen -->
+    <string name="hint_search">Search algorithms...</string>
+    <string name="title_input_setup">Set Initial Values</string>
+    <string name="btn_random">🎲  Random</string>
+    <string name="btn_start_visualization">Start Visualization</string>
+    <string name="title_random_dialog">Random Generation</string>
+    <string name="hint_random_count">Count (%1$d – %2$d)</string>
+    <string name="msg_input_required">Please enter a value.</string>
+
+    <!-- Learning history screen -->
+    <string name="title_learning_history">Learning History</string>
+    <string name="btn_all_records">All Records</string>
+    <string name="btn_bookmarks_only">Bookmarks Only</string>
+    <string name="msg_no_bookmarks_history">No bookmarks yet.</string>
+    <string name="msg_load_failed">Failed to load: %1$s</string>
+    <string name="msg_load_failed_short">Failed to load</string>
+    <string name="msg_bookmark_save_failed">Failed to save bookmark</string>
+    <string name="msg_no_history">No learning history yet.</string>
+
+    <!-- Algorithm detail screen -->
+    <string name="label_complexity">Time / Space Complexity</string>
+    <string name="label_case">Case</string>
+    <string name="label_time">Time</string>
+    <string name="label_space">Space</string>
+    <string name="label_best">Best</string>
+    <string name="label_avg">Average</string>
+    <string name="label_worst">Worst</string>
+    <string name="label_use_cases">Use Cases</string>
+    <string name="label_dash">-</string>
+
+    <!-- Algorithm list card -->
+    <string name="label_avg_complexity">Avg: %1$s</string>
+
+    <!-- Visualization code panel -->
+    <string name="label_code_hide">Hide Code ›</string>
+
+    <!-- Recent algorithms section -->
+    <string name="label_recent">Recent</string>
+</resources>

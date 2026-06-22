@@ -1,0 +1,24 @@
+# Gradle / 빌드 산출물
+.gradle/
+build/
+/build/
+/app/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# 로컬 환경 설정 (기기마다 다름)
+local.properties
+
+# Claude Code (로컬 도구 흔적)
+.claude/
+
+# 기타
+*.hprof
+.DS_Store
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# 참고: google-services.json 은 의도적으로 포함합니다(빌드 가능 상태 유지).

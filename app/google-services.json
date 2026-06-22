@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059187852502",
+    "project_id": "algoviz-70d45",
+    "storage_bucket": "algoviz-70d45.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059187852502:android:fb2cabafba1082a81f7577",
+        "android_client_info": {
+          "package_name": "com.example.algoviz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJaMWVQkFBU7sh9GvTia1Sl8jRHpz_Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

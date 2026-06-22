@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="algorithm_categories">
+        <item>전체</item>
+        <item>정렬</item>
+        <item>탐색</item>
+        <item>그래프</item>
+        <item>순회</item>
+    </string-array>
+</resources>

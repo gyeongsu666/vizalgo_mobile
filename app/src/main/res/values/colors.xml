@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱 팔레트 -->
+    <color name="primary">#818CF8</color>
+    <color name="primary_dark">#6366F1</color>
+    <color name="primary_light">#EDE9FE</color>
+    <color name="background">#FAF9FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_2">#F0EFFE</color>
+    <color name="text_primary">#1E1B4B</color>
+    <color name="text_secondary">#6366A0</color>
+    <color name="text_hint">#9B9EC0</color>
+    <color name="divider">#E5E3F8</color>
+    <color name="success">#34D399</color>
+    <color name="warning">#FBBF24</color>
+    <color name="error">#F87171</color>
+    <color name="purple">#A78BFA</color>
+    <color name="icon_bg">#EDE9FE</color>
+    <color name="icon_bg_green">#D1FAE5</color>
+    <color name="icon_bg_orange">#FEF3C7</color>
+    <color name="icon_bg_purple">#EDE9FE</color>
+
+    <!-- 시각화: 배열/정렬 -->
+    <color name="vis_default">#818CF8</color>
+    <color name="vis_compare">#FBBF24</color>
+    <color name="vis_swap">#F87171</color>
+    <color name="vis_sorted">#34D399</color>
+
+    <!-- 시각화: 탐색 -->
+    <color name="vis_found">#A78BFA</color>
+    <color name="vis_search_range">#EDE9FE</color>
+    <color name="vis_low_high">#818CF8</color>
+    <color name="vis_mid">#F87171</color>
+    <color name="vis_search_cell_inactive">#E5E3F8</color>
+
+    <!-- 시각화: 그래프/트리 -->
+    <color name="vis_visited">#34D399</color>
+    <color name="vis_frontier">#FBBF24</color>
+    <color name="vis_current">#F87171</color>
+    <color name="vis_highlight">#FBBF24</color>
+    <color name="vis_highlight_border">#F59E0B</color>
+
+    <!-- 시각화: 공통 -->
+    <color name="vis_text">#1E1B4B</color>
+    <color name="vis_bg">#F0EFFE</color>
+    <color name="vis_edge">#A5A8C8</color>
+    <color name="vis_edge_traversed">#34D399</color>
+    <color name="vis_index_text">#6366A0</color>
+    <color name="vis_search_text">#1E1B4B</color>
+
+    <!-- 코드 뷰어 -->
+    <color name="code_bg">#FAF9FF</color>
+    <color name="code_line_hl">#EDE9FE</color>
+    <color name="code_line_num">#9B9EC0</color>
+    <color name="code_line_num_active">#818CF8</color>
+    <color name="code_text">#1E1B4B</color>
+    <color name="code_text_active">#818CF8</color>
+</resources>

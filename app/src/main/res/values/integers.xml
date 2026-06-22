@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 재생 속도 (ms) -->
+    <integer name="default_speed_ms">800</integer>
+    <integer name="min_speed_ms">200</integer>
+    <integer name="max_speed_ms">2000</integer>
+    <integer name="default_speed_progress">35</integer>
+
+    <!-- 입력 범위 -->
+    <integer name="max_input_count">50</integer>
+    <integer name="random_default_count">8</integer>
+    <integer name="random_min_count">1</integer>
+    <integer name="random_max_value">99</integer>
+
+    <!-- 유효성 검사 -->
+    <integer name="min_id_length">4</integer>
+    <integer name="min_password_length">6</integer>
+
+    <!-- UI -->
+    <integer name="greeting_text_size_sp">17</integer>
+</resources>

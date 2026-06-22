@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlgoViz</string>
+    <!-- Firebase Web Client ID — google-services.json에서 자동으로 주입됩니다 -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+
+    <!-- 헤더 -->
+    <string name="greeting_user">안녕하세요, %1$s님</string>
+
+    <!-- 계정 팝업 메뉴 -->
+    <string name="menu_history">학습 기록</string>
+    <string name="menu_bookmark">북마크</string>
+    <string name="menu_account_info">계정 정보</string>
+    <string name="menu_logout">로그아웃</string>
+    <string name="menu_login">로그인</string>
+
+    <!-- 공통 버튼 -->
+    <string name="btn_confirm">확인</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_logout">로그아웃</string>
+    <string name="btn_generate">생성</string>
+
+    <!-- 공통 메시지 -->
+    <string name="msg_login_required">로그인이 필요합니다.</string>
+
+    <!-- 계정 다이얼로그 -->
+    <string name="title_account">계정</string>
+    <string name="msg_go_to_login">로그인이 필요합니다.\n로그인 화면으로 이동할까요?</string>
+    <string name="title_account_info">계정 정보</string>
+    <string name="account_info_format">이름: %1$s\n아이디: %2$s</string>
+
+    <!-- 북마크 -->
+    <string name="msg_no_bookmarks">북마크된 알고리즘이 없습니다.</string>
+    <string name="msg_bookmark_count">북마크 %1$d개</string>
+
+    <!-- 로그인 화면 -->
+    <string name="label_app_subtitle">알고리즘 시각화 학습</string>
+    <string name="hint_id">아이디</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="label_or">또는</string>
+    <string name="btn_google_login">Google로 로그인</string>
+    <string name="btn_browse_guest">로그인 없이 둘러보기</string>
+
+    <!-- 회원가입 화면 -->
+    <string name="title_create_account">계정 만들기</string>
+    <string name="label_welcome_to_algoviz">AlgoViz에 오신 것을 환영합니다</string>
+    <string name="hint_id_with_min">아이디 (4자 이상)</string>
+    <string name="hint_name">이름</string>
+    <string name="hint_password_with_min">비밀번호 (6자 이상)</string>
+    <string name="hint_password_confirm">비밀번호 확인</string>
+    <string name="btn_signup">가입하기</string>
+
+    <!-- 시각화 -->
+    <string name="label_visited">방문</string>
+
+    <!-- 로그인 메시지 -->
+    <string name="msg_id_password_required">아이디와 비밀번호를 입력해 주세요.</string>
+    <string name="msg_login_failed">로그인 실패: 아이디 또는 비밀번호를 확인해 주세요.</string>
+    <string name="msg_google_login_failed">Google 로그인 실패: %1$s</string>
+    <string name="msg_google_auth_failed">Google 인증 실패: %1$s</string>
+
+    <!-- 회원가입 -->
+    <string name="title_register">회원가입</string>
+    <string name="msg_id_required">아이디를 입력해 주세요.</string>
+    <string name="msg_id_too_short">아이디는 %1$d자 이상이어야 합니다.</string>
+    <string name="msg_name_required">이름을 입력해 주세요.</string>
+    <string name="msg_password_required">비밀번호를 입력해 주세요.</string>
+    <string name="msg_password_too_short">비밀번호는 %1$d자 이상이어야 합니다.</string>
+    <string name="msg_password_mismatch">비밀번호가 일치하지 않습니다.</string>
+    <string name="msg_id_already_used">이미 사용 중인 아이디입니다.</string>
+    <string name="msg_register_failed">회원가입 실패: %1$s</string>
+    <string name="msg_welcome_user">%1$s님, 가입을 환영합니다!</string>
+
+    <!-- 시각화 -->
+    <string name="msg_no_input">입력값이 없습니다.</string>
+    <string name="msg_input_error">입력 오류: %1$s</string>
+    <string name="msg_empty_numbers">숫자 목록이 비어 있습니다.</string>
+    <string name="msg_too_many_numbers">최대 %1$d개까지 허용됩니다.</string>
+    <string name="msg_search_format">목록 | 찾을 값 형식으로 입력하세요.</string>
+    <string name="msg_graph_format">A-B, A-C | A 형식으로 입력하세요.</string>
+    <string name="msg_empty_edges">간선 목록이 비어 있습니다.</string>
+    <string name="label_code_view">코드 보기 ›</string>
+    <string name="label_fast">빠름</string>
+    <string name="label_slow">느림</string>
+
+    <!-- 입력 화면 -->
+    <string name="hint_search">알고리즘 검색...</string>
+    <string name="title_input_setup">초기값 설정</string>
+    <string name="btn_random">🎲  랜덤 생성</string>
+    <string name="btn_start_visualization">시각화 시작</string>
+    <string name="title_random_dialog">랜덤 생성</string>
+    <string name="hint_random_count">숫자 개수 (%1$d ~ %2$d)</string>
+    <string name="msg_input_required">입력값을 입력해 주세요.</string>
+
+    <!-- 학습 기록 화면 -->
+    <string name="title_learning_history">학습 기록</string>
+    <string name="btn_all_records">전체 기록</string>
+    <string name="btn_bookmarks_only">북마크만</string>
+    <string name="msg_no_bookmarks_history">북마크가 없습니다.</string>
+    <string name="msg_load_failed">불러오기 실패: %1$s</string>
+    <string name="msg_load_failed_short">불러오기 실패</string>
+    <string name="msg_bookmark_save_failed">북마크 저장 실패</string>
+    <string name="msg_no_history">학습 기록이 없습니다.</string>
+
+    <!-- 알고리즘 상세 화면 -->
+    <string name="label_complexity">시간 / 공간 복잡도</string>
+    <string name="label_case">경우</string>
+    <string name="label_time">시간</string>
+    <string name="label_space">공간</string>
+    <string name="label_best">최선</string>
+    <string name="label_avg">평균</string>
+    <string name="label_worst">최악</string>
+    <string name="label_use_cases">활용 사례</string>
+    <string name="label_dash">-</string>
+
+    <!-- 알고리즘 목록 카드 -->
+    <string name="label_avg_complexity">평균: %1$s</string>
+
+    <!-- 최근 학습 섹션 -->
+    <string name="label_recent">최근 학습</string>
+
+    <!-- 시각화 코드 패널 -->
+    <string name="label_code_hide">코드 닫기 ›</string>
+</resources>
